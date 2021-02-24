@@ -26,6 +26,10 @@ optional arguments:
                         Run browser in headless mode.
 ```
 
+## Example output
+
+See example csv file at [here](exmples/example)
+
 ## Special thanks to ...
 
 Special thanks to [LazoCoder]('https://github.com/LazoCoder') for the
