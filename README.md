@@ -28,7 +28,7 @@ optional arguments:
 
 ## Example output
 
-See example csv file at [here](exmples)
+See example csv file at [here](exmples/)
 
 ## Special thanks to ...
 
