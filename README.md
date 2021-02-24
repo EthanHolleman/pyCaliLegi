@@ -25,3 +25,9 @@ optional arguments:
   -headless, --headless
                         Run browser in headless mode.
 ```
+
+## Special thanks to ...
+
+Special thanks to [LazoCoder]('https://github.com/LazoCoder') for the
+[Article-Summarizer](https://github.com/LazoCoder/Article-Summarizer) repo
+which was used for creating bill summaries.
