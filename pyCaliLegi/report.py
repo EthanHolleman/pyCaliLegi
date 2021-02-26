@@ -4,6 +4,18 @@ import pandas as pd
 
 
 def bill_url_to_LAC_row(url, browser):
+    '''Given the url to a bill's webpage and a webriver
+    return a dictionary (bill_dict) of attributes
+    of the bill that the LAC is interested in for 
+    intial screening.
+
+    Args:
+        url (str): Url to a bill's webpage.
+        browser (webdriver): Selenium webdriver used to access url.
+
+    Returns:
+        dict: Dictionary of bill attributes i.e. title, author etc.
+    '''
     browser.get(url)
     bill_dict = {}
     status_page_link = get_status_page_link(browser)
